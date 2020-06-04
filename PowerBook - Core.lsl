@@ -18,17 +18,21 @@ openMainMenu () {
 
 makeSpell (string name) {
     if (name == "Fireball") {
-        float bulletspeed = 150;
-        rotation rot = llGetRot();
-        vector fwd = llRot2Fwd(rot);
-        vector pos = llGetPos();
-        pos = pos + fwd;
-        pos.z +=  2;
-        fwd = fwd * bulletspeed;
-        llRezObject("Fireball", pos, fwd, rot, 0);
+       doFireball();
     }
-    
+
     closeBook();
+}
+
+doFireball() {
+    float bulletspeed = 150;
+    rotation rot = llGetRot();
+    vector fwd = llRot2Fwd(rot);
+    vector pos = llGetPos();
+    pos = pos + fwd;
+    pos.z +=  2;
+    fwd = fwd * bulletspeed;
+    llRezObject("Fireball", pos, fwd, rot, 0);
 }
 
 default
