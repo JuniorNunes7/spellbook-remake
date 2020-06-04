@@ -20,3 +20,11 @@ O objetivo deste projeto é reviver um antigo livro mágico que era muito famoso
 
 
 * Verificar possibilidade de manter o livro flutuando em volta do usuário
+
+### Colaborators
+
+Mute Pole
+Darkwater Milosz
+Alex Harbinger
+Garth FairChang
+Kolbster Walker
