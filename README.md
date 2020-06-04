@@ -19,3 +19,4 @@ O objetivo deste projeto é reviver um antigo livro mágico que era muito famoso
 * Feitiço de escudo
 
 
+* Verificar possibilidade de manter o livro flutuando em volta do usuário
