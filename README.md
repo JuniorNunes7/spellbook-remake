@@ -1,4 +1,4 @@
-# PowerBook - Remake
+# SpellBook - Remake
 ###### Projeto do second life
 
 O objetivo deste projeto é reviver um antigo livro mágico que era muito famoso em 2016. O projeto vai contar com uma interface renovada e simples para que os usuários possam escolher as magias e os alvos.
@@ -8,11 +8,11 @@ O objetivo deste projeto é reviver um antigo livro mágico que era muito famoso
 
 * Chuva de meteóros
 * Mind Control
-* Feitiço de fogo
+* ~Feitiço de fogo~
 * Feitiço de água
-* Feitiço de gelo
-* Feitiço de escuridão
-* Feitiço de aprisionamento
+* ~Feitiço de gelo~
+* ~Feitiço de escuridão~
+* ~Feitiço de aprisionamento~
 * Feitiço de levitação
 * Feitiço de explosão
 * Feitiço de fumaça
