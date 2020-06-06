@@ -23,10 +23,10 @@ O objetivo deste projeto é reviver um antigo livro mágico que era muito famoso
 
 ### Colaborators
 
-Mute Pole
-Darkwater Milosz
-Alex Harbinger
-Garth FairChang
-Kolbster Walker
-Clash Darkes
-Kaede Elytis
+-Mute Pole
+-Darkwater Milosz
+-Alex Harbinger
+-Garth FairChang
+-Kolbster Walker
+-Clash Darkes
+-Kaede Elytis
