@@ -13,7 +13,7 @@ closeBook () {
 }
 
 openMainMenu () {
-    list menu = ["Fireball", "Freeze", "Dark", "<< Stop >>"];
+    list menu = ["Fireball", "Freeze", "Dark", "Meteor Rain", "<< Stop >>"];
     llDialog(owner, "Select the Spell...", menu, menuChannel);
 }
 
@@ -24,6 +24,8 @@ makeSpell (string name) {
         doFreeze();
     } else if (name == "Dark") {
         doDark();
+    } else if (name == "Meteor Rain") {
+        doMeteorRain();
     } else if (name == "<< Stop >>") {
         doStop();
     }
@@ -50,6 +52,10 @@ doDark() {
     llRezObject("Dark", llGetPos() + <0,0,-10>, <0,0,0>, <0,0,0,0>, 0);
 }
 
+doMeteorRain() {
+    llRezObject("Meteor Rain", llGetPos() + <0,0,10>, <0,0,0>, <0,0,0,0>, 0);
+}
+
 doStop() {
     llRegionSay(BroadcastChannel666, "Delete>>Spells|" + (string)llGetOwner());    
 }
@@ -65,13 +71,10 @@ default
 
     touch_start(integer total_number)
     {
-        if (owner != llDetectedKey(0)) {
-            llOwnerSay("Intruso: " + llDetectedName(0));
-            return;
+        if (owner == llDetectedKey(0)) {
+            openBook();
+            openMainMenu();
         }
-
-        openBook();
-        openMainMenu();
     }
     
     listen(integer chan, string name, key id, string msg)
