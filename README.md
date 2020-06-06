@@ -6,7 +6,7 @@ O objetivo deste projeto é reviver um antigo livro mágico que era muito famoso
 
 ### TODO
 
-* Chuva de meteóros
+* ~Chuva de meteóros~
 * Mind Control
 * ~Feitiço de fogo~
 * Feitiço de água
@@ -28,3 +28,5 @@ Darkwater Milosz
 Alex Harbinger
 Garth FairChang
 Kolbster Walker
+Clash Darkes
+Kaede Elytis
