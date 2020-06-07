@@ -17,6 +17,7 @@ O objetivo deste projeto é reviver um antigo livro mágico que era muito famoso
 * Feitiço de explosão
 * Feitiço de fumaça
 * Feitiço de escudo
+* ~Feitiço de espinhos~
 
 
 * Verificar possibilidade de manter o livro flutuando em volta do usuário
