@@ -13,7 +13,7 @@ closeBook () {
 }
 
 openMainMenu () {
-    list menu = ["Fireball", "Freeze", "Dark", "Meteor Rain", "<< Stop >>"];
+    list menu = ["Fireball", "Freeze", "Dark", "Meteor Rain", "Mind Control", "Spike Trap", "<< Stop >>"];
     llDialog(owner, "Select the Spell...", menu, menuChannel);
 }
 
@@ -26,6 +26,10 @@ makeSpell (string name) {
         doDark();
     } else if (name == "Meteor Rain") {
         doMeteorRain();
+    } else if (name == "Mind Control") {
+        doMindControl();
+    } else if (name == "Spike Trap") {
+        doSpikeTrap();
     } else if (name == "<< Stop >>") {
         doStop();
     }
@@ -45,15 +49,23 @@ doFireball() {
 }
 
 doFreeze() {
-    llRezObject("Freeze", llGetPos() + <0,0,-10>, <0,0,0>, <0,0,0,0>, 0);
+    llRezObject("Freeze", llGetPos() + <0,0,10>, <0,0,0>, <0,0,0,0>, 0);
 }
 
 doDark() {
-    llRezObject("Dark", llGetPos() + <0,0,-10>, <0,0,0>, <0,0,0,0>, 0);
+    llRezObject("Dark", llGetPos() + <0,0,10>, <0,0,0>, <0,0,0,0>, 0);
 }
 
 doMeteorRain() {
     llRezObject("Meteor Rain", llGetPos() + <0,0,10>, <0,0,0>, <0,0,0,0>, 0);
+}
+
+doMindControl() {
+    llRezObject("Mind Control", llGetPos() + <0,0,10>, <0,0,0>, <0,0,0,0>, 0);
+}
+ 
+doSpikeTrap() {
+    llRezObject("Spike Trap", llGetPos() + <0,0,10>, <0,0,0>, <0,0,0,0>, 0);
 }
 
 doStop() {
