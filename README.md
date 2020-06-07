@@ -7,7 +7,7 @@ O objetivo deste projeto é reviver um antigo livro mágico que era muito famoso
 ### TODO
 
 * ~Chuva de meteóros~
-* Mind Control
+* ~Mind Control~
 * ~Feitiço de fogo~
 * Feitiço de água
 * ~Feitiço de gelo~
