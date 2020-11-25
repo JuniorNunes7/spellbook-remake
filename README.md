@@ -13,7 +13,7 @@ O objetivo deste projeto é reviver um antigo livro mágico que era muito famoso
 * ~Feitiço de gelo~
 * ~Feitiço de escuridão~
 * ~Feitiço de aprisionamento~
-* Feitiço de levitação
+* ~Feitiço de levitação~
 * Feitiço de explosão
 * Feitiço de fumaça
 * Feitiço de escudo
