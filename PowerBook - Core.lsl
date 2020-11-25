@@ -13,7 +13,7 @@ closeBook () {
 }
 
 openMainMenu () {
-    list menu = ["Fireball", "Freeze", "Dark", "Meteor Rain", "Spike Trap", "Attract", "Levitate", "<< Stop >>"];
+    list menu = ["Fireball", "Freeze", "Dark", "Meteor Rain", "Spike Trap", "Attract", "Levitate", "Explosion", "<< Stop >>"];
     llDialog(owner, "Select the Spell...", menu, menuChannel);
 }
 
@@ -34,6 +34,8 @@ makeSpell (string name) {
         doAttract();
     } else if (name == "Levitate") {
         doLevitate();
+    } else if (name == "Explosion") {
+        doExplosion();
     } else if (name == "<< Stop >>") {
         doStop();
     }
@@ -78,6 +80,10 @@ doAttract() {
  
 doLevitate() {
     llRezObject("Levitate", llGetPos() + <0,0,10>, <0,0,0>, <0,0,0,0>, 0);
+}
+
+doExplosion() {
+    llRezObject("Explosion", llGetPos() + <0,0,10>, <0,0,0>, <0,0,0,0>, 0);
 }
 
 doStop() {
