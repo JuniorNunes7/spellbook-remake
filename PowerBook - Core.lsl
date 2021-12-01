@@ -1,4 +1,4 @@
-integer BroadcastChannel666 = -666666;
+integer broadcastChannel = -666666;
 integer menuChannel = -9947;
 key owner;
 
@@ -87,7 +87,7 @@ doExplosion() {
 }
 
 doStop() {
-    llRegionSay(BroadcastChannel666, "Delete>>Spells|" + (string)llGetOwner());    
+    llRegionSay(broadcastChannel, "Delete>>Spells|" + (string)llGetOwner());    
 }
 
 default
